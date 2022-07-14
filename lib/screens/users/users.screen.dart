@@ -26,6 +26,7 @@ class UsersScreen extends StatelessWidget {
           height: MediaQuery.of(context).size.height / 1.7,
           child: Stack(
             children: [
+              //Imagen de usuario
               Padding(
                 padding: const EdgeInsets.only(bottom: 45),
                 child: Container(
@@ -38,33 +39,33 @@ class UsersScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              //Botones
               Align(
-          alignment: Alignment.bottomCenter,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 60.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                const ChoiceButton(
-                  color: Colors.redAccent,
-                  icon: Icons.clear_rounded,
+                alignment: Alignment.bottomCenter,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 60.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      const ChoiceButton(
+                        color: Colors.redAccent,
+                        icon: Icons.clear_rounded,
+                      ),
+                      const ChoiceButton(
+                        height: 80,
+                        width: 80,
+                        size: 30,
+                        color: Colors.green,
+                        icon: Icons.favorite,
+                      ),
+                      const ChoiceButton(
+                        color: Colors.black,
+                        icon: Icons.access_time_filled,
+                      ),
+                    ],
+                  ),
                 ),
-                const ChoiceButton(
-                  height: 80,
-                  width: 80,
-                  size: 30,
-                  color: Colors.green,
-                  icon: Icons.favorite,
-
-                ),
-                const ChoiceButton(
-                  color: Colors.black,
-                  icon: Icons.access_time_filled,
-                ),
-              ],
-            ),
-          ),
-        )
+              )
             ],
           ),
         ),
