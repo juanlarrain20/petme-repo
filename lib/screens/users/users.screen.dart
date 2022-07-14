@@ -23,7 +23,7 @@ class UsersScreen extends StatelessWidget {
         ),
         extendBodyBehindAppBar: true,
         body: SizedBox(
-          height: MediaQuery.of(context).size.height / 2,
+          height: MediaQuery.of(context).size.height / 1.7,
           child: Stack(
             children: [
               Padding(
@@ -55,7 +55,7 @@ class UsersScreen extends StatelessWidget {
                   size: 30,
                   color: Colors.green,
                   icon: Icons.favorite,
-                  
+
                 ),
                 const ChoiceButton(
                   color: Colors.black,
