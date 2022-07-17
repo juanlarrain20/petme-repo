@@ -1,4 +1,4 @@
-#Fri Jul 15 13:32:00 CLT 2022
+#Sun Jul 17 19:17:28 CLT 2022
 base.0=/home/juanlarra/Documents/flutter/petme/petme-repo/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

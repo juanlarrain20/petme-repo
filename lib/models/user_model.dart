@@ -8,6 +8,7 @@ class User extends Equatable {
   final List<String> imageUrls;
   final String interest;
   final String bio;
+  final List<String> atributes;
 
   const User({
     required this.id,
@@ -16,6 +17,7 @@ class User extends Equatable {
     required this.imageUrls,
     required this.interest,
     required this.bio,
+    required this.atributes,
   });
 
   @override
@@ -27,6 +29,7 @@ class User extends Equatable {
         imageUrls,
         interest,
         bio,
+        atributes,
       ];
 
   static List<User> users = [
@@ -40,6 +43,10 @@ class User extends Equatable {
       ],
       interest: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae hendrerit turpis. Cras pharetra dapibus purus. Cras eu vestibulum erat. Nulla fermentum egestas lacinia. Curabitur a porta turpis. In eu hendrerit lacus. Fusce non mi sed sem volutpat efficitur. Praesent non lobortis enim. Morbi luctus nulla nec velit lobortis sodales.',
       bio: 'SOY JUAN ',
+      atributes: [
+        'Apto para una pareja',
+        'soltero'
+      ],
     ),
     User(
       id: 2,
@@ -51,6 +58,10 @@ class User extends Equatable {
       ],
       interest: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae hendrerit turpis. Cras pharetra dapibus purus. Cras eu vestibulum erat. Nulla fermentum egestas lacinia. Curabitur a porta turpis. In eu hendrerit lacus. Fusce non mi sed sem volutpat efficitur. Praesent non lobortis enim. Morbi luctus nulla nec velit lobortis sodales.',
       bio: 'ME GUSTAN LOS PAJAROS',
+      atributes: [
+        'Apto para una pareja',
+        'soltero'
+      ],
     ),
     User(
       id: 3,
@@ -62,6 +73,10 @@ class User extends Equatable {
       ],
       interest: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae hendrerit turpis. Cras pharetra dapibus purus. Cras eu vestibulum erat. Nulla fermentum egestas lacinia. Curabitur a porta turpis. In eu hendrerit lacus. Fusce non mi sed sem volutpat efficitur. Praesent non lobortis enim. Morbi luctus nulla nec velit lobortis sodales.',
       bio: 'ME GUSTAN LOS no cacho',
+      atributes: [
+        'Apto para una pareja',
+        'soltero'
+      ],
     ),
     User(
       id: 4,
@@ -73,6 +88,10 @@ class User extends Equatable {
       ],
       interest: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae hendrerit turpis. Cras pharetra dapibus purus. Cras eu vestibulum erat. Nulla fermentum egestas lacinia. Curabitur a porta turpis. In eu hendrerit lacus. Fusce non mi sed sem volutpat efficitur. Praesent non lobortis enim. Morbi luctus nulla nec velit lobortis sodales.',
       bio: 'ME GUSTAN LOS no cacho',
+      atributes: [
+        'Apto para una pareja',
+        'soltero'
+      ],
     ),
     User(
       id: 5,
@@ -84,6 +103,10 @@ class User extends Equatable {
       ],
       interest: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae hendrerit turpis. Cras pharetra dapibus purus. Cras eu vestibulum erat. Nulla fermentum egestas lacinia. Curabitur a porta turpis. In eu hendrerit lacus. Fusce non mi sed sem volutpat efficitur. Praesent non lobortis enim. Morbi luctus nulla nec velit lobortis sodales.',
       bio: 'ME GUSTAN LOS no cacho',
+      atributes: [
+        'Apto para una pareja',
+        'soltero'
+      ],
     ),
     User(
       id: 6,
@@ -95,6 +118,10 @@ class User extends Equatable {
       ],
       interest: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae hendrerit turpis. Cras pharetra dapibus purus. Cras eu vestibulum erat. Nulla fermentum egestas lacinia. Curabitur a porta turpis. In eu hendrerit lacus. Fusce non mi sed sem volutpat efficitur. Praesent non lobortis enim. Morbi luctus nulla nec velit lobortis sodales.',
       bio: 'ME GUSTAN LOS no cacho',
+      atributes: [
+        'Apto para una pareja',
+        'soltero'
+      ],
     ),
     User(
       id: 7,
@@ -106,6 +133,10 @@ class User extends Equatable {
       ],
       interest: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae hendrerit turpis. Cras pharetra dapibus purus. Cras eu vestibulum erat. Nulla fermentum egestas lacinia. Curabitur a porta turpis. In eu hendrerit lacus. Fusce non mi sed sem volutpat efficitur. Praesent non lobortis enim. Morbi luctus nulla nec velit lobortis sodales.',
       bio: 'ME GUSTAN LOS no cacho',
+      atributes: [
+        'Apto para una pareja',
+        'soltero'
+      ],
     )
   ];
 }
