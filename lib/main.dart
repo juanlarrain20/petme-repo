@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'PetMe',
         theme: ThemeData(
           primarySwatch: Colors.blue,

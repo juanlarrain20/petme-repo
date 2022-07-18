@@ -33,7 +33,7 @@ class User extends Equatable {
       ];
 
   static List<User> users = [
-    User(
+    const User(
       id: 1,
       name: 'Juan',
       age: 22,
@@ -48,7 +48,7 @@ class User extends Equatable {
         'soltero'
       ],
     ),
-    User(
+    const User(
       id: 2,
       name: 'Tomas',
       age: 23,
@@ -63,7 +63,7 @@ class User extends Equatable {
         'soltero'
       ],
     ),
-    User(
+    const User(
       id: 3,
       name: 'nicolas',
       age: 23,
@@ -78,7 +78,7 @@ class User extends Equatable {
         'soltero'
       ],
     ),
-    User(
+    const User(
       id: 4,
       name: 'chapa',
       age: 23,
@@ -93,7 +93,7 @@ class User extends Equatable {
         'soltero'
       ],
     ),
-    User(
+    const User(
       id: 5,
       name: 'nicolas',
       age: 23,
@@ -108,7 +108,7 @@ class User extends Equatable {
         'soltero'
       ],
     ),
-    User(
+    const User(
       id: 6,
       name: 'juan',
       age: 23,
@@ -123,7 +123,7 @@ class User extends Equatable {
         'soltero'
       ],
     ),
-    User(
+    const User(
       id: 7,
       name: 'nicolas',
       age: 23,
